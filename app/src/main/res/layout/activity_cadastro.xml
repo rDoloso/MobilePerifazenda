@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:background="@drawable/backgroundtelasiniciais16x9">
+
+  <LinearLayout
+      android:id="@+id/LinearLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="30dp">
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="241dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/fazendeirocomcirculo"/>
+
+
+    <!-- Campo Nome -->
+    <TextView
+        android:id="@+id/label_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome completo:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo CPF -->
+    <TextView
+        android:id="@+id/label_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        />
+    <EditText
+        android:id="@+id/cpf"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite seu CPF"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+    <!-- Campo CEP -->
+    <TextView
+        android:id="@+id/label_cep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEP:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/cep"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite seu CEP"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Logradouro -->
+    <TextView
+        android:id="@+id/label_logradouro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logradouro:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/logradouro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite seu logradouro"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Número -->
+    <TextView
+        android:id="@+id/label_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite o número"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Bairro -->
+    <TextView
+        android:id="@+id/label_bairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bairro:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/bairro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite o bairro"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Cidade/UF -->
+    <TextView
+        android:id="@+id/label_cidade_uf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade/UF:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/cidade_uf"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite a cidade/UF"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Complemento -->
+    <TextView
+        android:id="@+id/label_complemento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complemento:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/complemento"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite o complemento (opcional)"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Data de Nascimento -->
+    <TextView
+        android:id="@+id/label_data_nascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Nascimento:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/data_nascimento"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite a data de nascimento"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Email -->
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Usuário -->
+    <TextView
+        android:id="@+id/label_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuário:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite seu usuário"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Senha -->
+    <TextView
+        android:id="@+id/label_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Campo Confirmação de Senha -->
+    <TextView
+        android:id="@+id/label_confirmacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmação de Senha:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/confirmacao"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Confirme sua senha"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <!-- Botão de Cadastro -->
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/VerdePerifazenda"
+        android:text="Cadastrar"
+        android:textColor="@color/white"
+        />
+  </LinearLayout>
+</ScrollView>

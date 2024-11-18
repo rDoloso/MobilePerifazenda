@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/begePerifazendaTransparente"/> <!-- Cor do fundo -->
+    <corners android:radius="20dp"/> <!-- Raio da borda arredondada -->
+    <stroke android:color="@color/begePerifazenda" android:width="2dp"/> <!-- Cor e espessura da borda -->
+</shape>
